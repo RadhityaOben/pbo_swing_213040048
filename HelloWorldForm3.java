@@ -22,13 +22,13 @@ public class HelloWorldForm3 extends JFrame implements ActionListener{
 
         setTitle("Penjumlahan");
         setLayout(new GridLayout(3, 1));
+        setSize(200, 150);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+        
         add(textField1);
         add(textField2);
         add(jumlah);
-        setSize(200, 150);
-
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setVisible(true);
     }
 
     @Override
