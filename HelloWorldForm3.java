@@ -37,7 +37,7 @@ public class HelloWorldForm3 extends JFrame implements ActionListener{
             nilai1 = Integer.parseInt(textField1.getText());
             nilai2 = Integer.parseInt(textField2.getText());
         }
-            hasil = nilai1 + nilai2;
+        hasil = nilai1 + nilai2;
 
         JOptionPane.showMessageDialog(this, "Hasil penjumlahan adalah " + hasil);
     }
